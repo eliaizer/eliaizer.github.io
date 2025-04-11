@@ -1,0 +1,137 @@
+body {
+    color: #f1ecec;
+    background-color: #1a1a1a;
+    font-family: "Martian Mono", "JetBrains", monospace;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main {
+    background-color: #252525;
+    border-radius: 20px;
+    max-width: 777px;
+    margin: auto;
+    padding: 1%;
+    border: #f1ecec solid 2px;
+}
+
+.info {
+    padding: 2%;
+    display: flex;
+}
+
+.avatar {
+    border-radius: 50%;
+    width: 30%;
+    height: 30%;
+    margin: 2%;
+}
+
+.description {
+    padding-left: 10px;
+    width: 100%;
+}
+
+.status {
+    display: flex;
+    align-items: center;
+    background-color: rgba(132, 165, 75, 0.496);
+    border-radius: 5px;
+    width: max-content;
+    padding: 5px 10px;
+}
+
+.circle {
+    width: 12px; /* Устанавливаем ширину круга */
+    height: 12px; /* Устанавливаем высоту круга (равную ширине) */
+    background-color: rgba(162, 255, 0, 0.75);
+    border-radius: 50%; /* Делаем элемент кругом */
+    margin-right: 8px; /* Отступ справа от текста */
+}
+
+.source {
+    --lr_margin: 0%;
+    margin-left: var(--lr_margin);
+}
+
+.button {
+    background-color: #1a1a1a;
+    border-radius: 64px;
+    height: fit-content;
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    transition: 1s;
+    display: flex;
+    align-items: center; /* Вертикальная центровка */
+    justify-content: center; /* Горизонтальная центровка */
+    border: #f1ecec solid 2px;
+}
+
+.button:hover {
+    color: #1a1a1a;
+    background-color: #f1ecec;
+    border-radius: 20px;
+    height: max-content;
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.logo {
+    background-color: #1a1a1a;
+    width: 64px;
+    border-radius: 32px;
+    transition: 1s;
+}
+
+.button:hover .logo {
+    background-color: #1a1a1a;
+    width: 64px;
+    border-radius: 20px;
+}
+
+.text {
+    color: #f1ecec;
+    font-size: 125%;
+    width: 100%;
+    text-align: center;
+    transition: 1s;
+}
+
+.button:hover .text {
+    color: #1a1a1a;
+    font-size: 125%;
+    width: 100%;
+}
+
+.ban_button {
+    background: url('img/rkn.jpeg') no-repeat center center / cover;
+    border-radius: 64px;
+    height: 64px;
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    transition: 1s;
+    display: flex;
+    align-items: center; /* Вертикальная центровка текста */
+    justify-content: center; /* Горизонтальная центровка текста */
+    border: #f1ecec solid 2px;
+}
+
+.ban_button .text {
+    color: #f1ecec;
+    text-align: center;
+    margin: 0;
+}
+
+mark {
+    background-color: #1a1a1a;
+    padding: 5px;
+    border-radius: 5px;
+}

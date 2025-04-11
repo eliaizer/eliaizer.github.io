@@ -1,1 +1,1 @@
-My bio
+My work and live bio.
